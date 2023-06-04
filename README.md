@@ -1,4 +1,4 @@
-#simple database schema for products and product details using SQLAlchemy,
+# simple database schema for products and product details using SQLAlchemy,
 # Create an engine and bind it to the base class
 engine = create_engine('your_database_connection_string')
 Base.metadata.create_all(engine)
