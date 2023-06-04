@@ -1,4 +1,5 @@
 # Simple CRUD for products and product details using SQLAlchemy ORM,
+## How to User it- Download the code and run as a python Script
 
 
 ## Create an engine and bind it to the base class with Mysql
