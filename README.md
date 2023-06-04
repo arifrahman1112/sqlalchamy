@@ -3,9 +3,9 @@
 
 ## Create an engine and bind it to the base class with Mysql
 
-```mysql+pymysql://UID:PASSWORD@HOST:PORT/SCHEMA?charset=utf8mb4
+mysql+pymysql://UID:PASSWORD@HOST:PORT/SCHEMA?charset=utf8mb4
 engine = create_engine('your_database_connection_string')
-Base.metadata.create_all(engine)```
+Base.metadata.create_all(engine)
 
 ## Create a session
 Session = sessionmaker(bind=engine)
